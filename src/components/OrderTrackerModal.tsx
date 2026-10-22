@@ -52,7 +52,7 @@ export const OrderTrackerModal: React.FC<OrderTrackerModalProps> = ({
     const parsed = orderLookupSchema.safeParse(payload);
     if (!parsed.success) {
       const errors: Record<string, string> = {};
-      parsed.error.issues.forEach((err) => {
+      parsed.error.issues.forEach((err: any) => {
         errors[err.path.join('.')] = err.message;
       });
       setFormErrors(errors);

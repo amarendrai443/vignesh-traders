@@ -88,7 +88,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
     const validation = checkoutOrderSchema.safeParse(payload);
     if (!validation.success) {
       const errMap: Record<string, string> = {};
-      validation.error.issues.forEach((err) => {
+      validation.error.issues.forEach((err: any) => {
         errMap[err.path.join('.')] = err.message;
       });
       setFormErrors(errMap);
