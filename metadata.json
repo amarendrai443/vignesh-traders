@@ -1,0 +1,8 @@
+{
+  "name": "Vignesh Traders",
+  "description": "Architectural Foundation & Storefront for a Premium Dry Fruit E-Commerce platform with Supabase RLS, Zod validation, and rate limiting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

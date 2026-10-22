@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-bg: #FAF7F2;
+  --color-card-surface: #FFFFFF;
+  --color-accent-amber: #B45309;
+  --color-text-primary: #2D241E;
+  --color-text-secondary: #6E6359;
+}
+
+:root {
+  --background: #FAF7F2;
+  --surface: #FFFFFF;
+  --accent: #B45309;
+  --foreground: #2D241E;
+  --muted: #6E6359;
+}
+
+body {
+  background-color: #FAF7F2;
+  color: #2D241E;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
